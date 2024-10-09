@@ -8,6 +8,7 @@ void main() {
   WidgetsFlutterBinding.ensureInitialized();
   // Make the navigation and status bar transparent
   SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
+  
 
   // Set system overlays to be transparent
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
