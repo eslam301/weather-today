@@ -19,12 +19,12 @@ class ApplicationTheme {
         color: AppColors.white
       ),
       titleLarge: TextStyle(
-        fontSize: 16.sp,
+        fontSize: 18.sp,
         fontWeight: FontWeight.bold,
         color: AppColors.white
       ),
       titleMedium: TextStyle(
-        fontSize: 14.sp,
+        fontSize: 16.sp,
         fontWeight: FontWeight.normal,
         color: AppColors.white
       ),
@@ -44,9 +44,9 @@ class ApplicationTheme {
         color: AppColors.black
       ),
       bodySmall: TextStyle(
-        fontSize: 12.sp,
+        fontSize: 10.sp,
         fontWeight: FontWeight.normal,
         color: AppColors.black
-      )
+      ),
   ));
 }

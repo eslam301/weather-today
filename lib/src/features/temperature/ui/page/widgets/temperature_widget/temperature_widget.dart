@@ -21,11 +21,11 @@ class TemperatureWidget extends StatelessWidget {
               children: [
                 Text(
                   'H:31°',
-                  style:textTheme.titleLarge
+                  style:textTheme.titleMedium
                 ),
                 Text(
                   'L:23°',
-                  style:textTheme.titleLarge,
+                  style:textTheme.titleMedium,
                 )
               ],
             )
@@ -40,7 +40,7 @@ class TemperatureWidget extends StatelessWidget {
             ),
             Text(
               'Sakhon province, Thailand',
-              style: textTheme.titleLarge,
+              style: textTheme.titleMedium,
               textAlign: TextAlign.center,
             ),
           ],
